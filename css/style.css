@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* @font-face {
+    font-family: Abel;
+    src: url(/fonts/Abel-Bold.otf);
+}
+
+p{
+    font-family: 'Water Brush', cursive;
+}
+.ball{
+    color: red;
+} */
+/* .main{
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    position: relative;
+}
+.relative{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+   right: 0px;
+   bottom: 0px;
+
+}
+.absolute{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41, 44, 44);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+} */
+body{
+    height: 3000px;
+}
+.main{
+    height: 50px;
+    width: 1200px;
+    background-color: gray;
+    margin: 10px auto;
+    position: sticky;
+    top: 0;
+}
+.main .logo{
+height: 100%;
+width: 100px;
+background-color: aqua;
+float: left;
+}
+.main .nav-list{
+    padding: 15px;
+    float: right;
+
+}
+
+.main .nav-list li{
+ display: inline;
+ padding: 20px 30px;
+}
+.main .nav-list li a{
+    text-decoration: none;
+}
+.fixed{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    position: fixed;
+    right: 30px; 
+    bottom: 30px;
+}
