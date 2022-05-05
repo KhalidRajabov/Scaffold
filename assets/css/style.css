@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    width: 100%;
+    margin-top: 0;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-lists{
+    display: flex;
+    flex-direction: row;
+}
+.nav-links{
+    padding-right: 100px;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.lists>li{
+    padding-right: 25px;
+}
