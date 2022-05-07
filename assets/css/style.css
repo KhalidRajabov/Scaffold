@@ -100,7 +100,7 @@ nav {
   width: 100%;
 }
 .meet-image {
-    padding: 5%;
+  padding: 5%;
   width: 100%;
 }
 /* .left{
@@ -116,7 +116,7 @@ nav {
   font-weight: 700;
   color: #364146;
   font-family: sans-serif;
-  cursor:default;
+  cursor: default;
 }
 .description {
   max-width: 80%;
@@ -166,3 +166,101 @@ nav {
 .to-top:hover {
   background-color: rgb(2, 137, 204);
 }
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-section {
+  padding: 30px 0;
+  background-color: rgb(247, 248, 249);
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.border {
+  border: 1px solid black;
+}
+.about-image-div {
+  max-width: 45%;
+}
+.about-image {
+  width: 100%;
+}
+.about-lists {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.about-learn {
+  font-weight: 400;
+  font-size: 32px;
+  font-family: sans-serif;
+  color: #364146;
+}
+.about-description {
+  margin-top: 30px;
+  color: rgb(155, 155, 155);
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+}
+
+.fa-circle-check {
+  background-color: lime;
+  color: white;
+  border: 1px solid lime;
+  border-radius: 50%;
+}
+.about-list {
+  margin-top: 30px;
+  list-style: none;
+  color: rgb(155, 155, 155);
+  font-family: "Open Sans", sans-serif;
+}
+.about-list > li {
+  padding: 10px 0;
+}
+.prologue {
+  margin-top: 30px;
+  list-style: none;
+  color: rgb(155, 155, 155);
+  font-family: "Open Sans", sans-serif;
+}
+.graph{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topic-area{
+  padding: 30px 0;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.topics-col{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+.topics{
+  padding: 15px 0;
+  width: 80%;
+  margin-top: 15px;
+  background-color: rgb(250,251,251);
+  border-left: 4px solid rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.topic-title{
+  padding: 5px 15px;
+}
+.topic-info{
+  padding: 5px 15px;
+}
+.topics:focus + 
