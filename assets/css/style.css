@@ -179,6 +179,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 .border {
   border: 1px solid black;
@@ -266,10 +267,9 @@ nav {
   padding: 5px 15px;
 }
 .topics:hover{
-  border-left: 4px solid rgb(170, 170, 170);
+  border-left: 4px solid rgb(0, 156, 234);
   background-color: rgb(241, 241, 241);
 }
-
-.focus{
-  background-color: red;
+.topics:hover .topic-title{
+  color: rgb(0, 156, 234);
 }
