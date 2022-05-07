@@ -256,11 +256,20 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  transition: 0.3s;
 }
+
 .topic-title{
   padding: 5px 15px;
 }
 .topic-info{
   padding: 5px 15px;
 }
-.topics:focus + 
+.topics:hover{
+  border-left: 4px solid rgb(170, 170, 170);
+  background-color: rgb(241, 241, 241);
+}
+
+.focus{
+  background-color: red;
+}
